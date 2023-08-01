@@ -48,4 +48,4 @@ jobs:
 
           sonar_login: ${{ secrets.SONAR_TOKEN }}
 
-          project_base_dir: Challenge/  # Change this if your code is in a subdirectory
+          project_base_dir: InvestingPlots/Challenge/  # Change this if your code is in a subdirectory
