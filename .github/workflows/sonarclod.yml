@@ -35,13 +35,13 @@ jobs:
         with:
 
           java-version: '11'
+          distribution: 'adopt'
 
  
 
       - name: Run SonarCloud analysis
 
         uses: sonarsource/sonarcloud-github-action@master
-        distribution: 'adopt'
 
         with:
 
