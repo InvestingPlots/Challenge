@@ -122,7 +122,7 @@ async def upload_csv(file: UploadFile = File()):
 
         # We store the results in a table (mi_tabla_challenge)
 
-        To_table(variables)
+        #To_table(variables)
 
        
 
