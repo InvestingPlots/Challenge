@@ -5,10 +5,12 @@ name: SonarCloud Analysis
 on:
 
   push:
-
+  
     branches:
 
       - main  # Change 'main' to your default branch name
+  pull_request:
+       types: [opened, synchronize, reopened]
 
  
 
